@@ -1,0 +1,4 @@
+Method,Recall (%),Precision (%),F1-Score (%),AUC (%)
+Baseline (RF),76.35,83.70,79.86,97.17
+Paper 2 (SMOTE k=5),85.81,19.57,31.87,96.81
+Proposed (Hybrid),85.81,28.22,42.47,96.94
