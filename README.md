@@ -74,7 +74,7 @@ Use Python 3.8+ and install dependencies:
 ```bash
 pip install -r requirements.txt
 
-Key libraries:
+## Key libraries:
 
 pandas, numpy
 
