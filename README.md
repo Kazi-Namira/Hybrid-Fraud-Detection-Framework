@@ -70,45 +70,42 @@ Hybrid-Fraud-Detection-Framework/
 ## Requirements
 
 Use Python 3.8+ and install dependencies:
-
-```bash
 pip install -r requirements.txt
 
-## Key libraries:
+---
 
-pandas, numpy
+## Key Libraries
 
-scikit-learn
+- `pandas`, `numpy`
+- `scikit-learn`
+- `xgboost`
+- `matplotlib`, `seaborn`
+- `imblearn` (for SMOTE)
 
-xgboost
+---
 
-matplotlib, seaborn
+## How to Run
 
-imblearn (for SMOTE)
-
-How to Run
-
-Download the dataset (creditcard.csv) and place it in the root folder.
-
-Run the main training script:
-
-python main.py
-
-
-Run the testing script:
-
-python test.py
-
-
+1. Download the dataset (`creditcard.csv`) and place it in the root folder.  
+2. Run the main training script:
+- python main.py
+  
+3. Run the testing script:
+- python test.py
+  
 Generated results and figures will be saved in the repository.
 
-Notes
+---
+
+## Notes
 
 The dataset is excluded due to GitHub size limits. Please download from the official source.
 
 .gitignore is included to exclude CSVs, virtual environment files, and Python cache files.
 
-References
+---
+
+## References
 
 Liu, H., et al., “SMOTE: Synthetic Minority Over-sampling Technique”, Journal of Artificial Intelligence Research, 2002.
 
