@@ -30,7 +30,8 @@ Hybrid-Fraud-Detection-Framework/
 ├─ figure2_confusion_matrix.png
 ├─ figure3_roc_curve.png
 ├─ figure3_roc_curves.png
-└─ README.md ```
+└─ README.md
+```
 
 - **main.py**: Preprocessing, SMOTE oversampling, training XGBoost, evaluation  
 - **test.py**: Testing the trained model on sample data  
