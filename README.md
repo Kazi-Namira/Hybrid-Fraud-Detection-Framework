@@ -28,7 +28,6 @@ Hybrid-Fraud-Detection-Framework/
 ├─ results_final.csv               # Model predictions and evaluation metrics
 ├─ figure1_comprehensive_comparison.png
 ├─ figure2_confusion_matrix.png
-├─ figure3_roc_curve.png
 ├─ figure3_roc_curves.png
 └─ README.md
 ```
