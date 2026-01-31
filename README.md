@@ -22,16 +22,15 @@ Place the downloaded CSV file in the project folder as `creditcard.csv`.
 
 Hybrid-Fraud-Detection-Framework/
 │
-├─ main.py # Main script: preprocessing, training, evaluation
-├─ test.py # Testing script for model predictions
-├─ requirements.txt # Python dependencies
-├─ results_final.csv # Model predictions and metrics
+├─ main.py                         # Data preprocessing, training, and evaluation
+├─ test.py                         # Testing the trained model
+├─ requirements.txt                # Python dependencies
+├─ results_final.csv               # Model predictions and evaluation metrics
 ├─ figure1_comprehensive_comparison.png
 ├─ figure2_confusion_matrix.png
-├─ figure3_roc_curve.png (Extra)
+├─ figure3_roc_curve.png
 ├─ figure3_roc_curves.png
 └─ README.md
-
 
 - **main.py**: Preprocessing, SMOTE oversampling, training XGBoost, evaluation  
 - **test.py**: Testing the trained model on sample data  
